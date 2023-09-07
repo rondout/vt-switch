@@ -1,0 +1,230 @@
+$full: 100%;
+$primary: #009ceb;
+
+html,
+body {
+  height: $full;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+.primary-bg {
+  background-color: $primary;
+}
+
+.primary-color {
+  color: $primary;
+}
+
+.overhidden {
+  overflow: hidden;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// ---------start---------- //
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-col-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-auto {
+  flex: 1 1 auto;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-v-center {
+  display: flex;
+  align-items: center;
+}
+.flex-h-center {
+  display: flex;
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.w-screen {
+  width: 100vw;
+}
+.h-screen {
+  height: 100vh;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.sticky {
+  position: sticky;
+}
+.static {
+  position: static;
+}
+.fixed {
+  position: fixed;
+}
+.grid {
+  display: grid;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+// ---------end---------- //
+.flex-start {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.border-box {
+  box-sizing: border-box;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.iconfont {
+  font-size: 24px;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.abs-position {
+  position: absolute;
+}
+// Typography
+
+h1 {
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2,
+.h2 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.body1 {
+  color: #000000a6;
+}
+
+.title1 {
+  font-size: 14px;
+  color: #000000a6;
+}
+
+.title1-important {
+  font-size: 14px !important;
+  color: #000000a6 !important;
+}
+
+.title2 {
+  font-size: 12px;
+  color: #000000a6;
+}
+
+.input-label {
+  font-size: 12px;
+  line-height: 12px;
+  color: #00000073;
+}

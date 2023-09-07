@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4086215 */
+  src: url('iconfont.woff2?t=1685348645630') format('woff2'),
+       url('iconfont.woff?t=1685348645630') format('woff'),
+       url('iconfont.ttf?t=1685348645630') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ic_edit:before {
+  content: "\e7a9";
+}
+
+.icon-ic_upload:before {
+  content: "\e79f";
+}
+
+.icon-ic_doc:before {
+  content: "\e7a0";
+}
+
+.icon-ic_customize:before {
+  content: "\e79d";
+}
+
+.icon-ic_arrowright:before {
+  content: "\e79e";
+}
+
+.icon-ic_alert:before {
+  content: "\e79a";
+}
+
+.icon-ic_ok:before {
+  content: "\e79b";
+}
+
+.icon-ic_cancle:before {
+  content: "\e79c";
+}
+
+.icon-ic_success:before {
+  content: "\e798";
+}
+
+.icon-ic_failed:before {
+  content: "\e799";
+}
+
+.icon-ic_toast_alert:before {
+  content: "\e796";
+}
+
+.icon-ic_tips:before {
+  content: "\e797";
+}
+
+.icon-ic_password:before {
+  content: "\e795";
+}
+
+.icon-ic_delete:before {
+  content: "\e794";
+}
+
+.icon-ic_eyeclose:before {
+  content: "\e792";
+}
+
+.icon-ic_eyeopen:before {
+  content: "\e793";
+}
+
+.icon-ic_user:before {
+  content: "\e790";
+}
+
+.icon-ic_logout:before {
+  content: "\e791";
+}
+
+.icon-ic_add:before {
+  content: "\e78e";
+}
+
+.icon-ic_substrat:before {
+  content: "\e78f";
+}
+
+.icon-ic_en:before {
+  content: "\e78c";
+}
+
+.icon-ic_zn:before {
+  content: "\e78d";
+}
+
+.icon-ic_menu_open:before {
+  content: "\e788";
+}
+
+.icon-ic_menu_fold:before {
+  content: "\e789";
+}
+
+.icon-ic_arrowup:before {
+  content: "\e78a";
+}
+
+.icon-ic_arrowdown:before {
+  content: "\e78b";
+}
+
+.icon-ic_eye_off:before {
+  content: "\e786";
+}
+
+.icon-ic_eye_open:before {
+  content: "\e787";
+}
+
+.icon-ic_port:before {
+  content: "\e780";
+}
+
+.icon-ic_home:before {
+  content: "\e781";
+}
+
+.icon-ic_lacp:before {
+  content: "\e782";
+}
+
+.icon-ic_system:before {
+  content: "\e783";
+}
+
+.icon-ic_stp:before {
+  content: "\e784";
+}
+
+.icon-ic_vlan:before {
+  content: "\e785";
+}
+
